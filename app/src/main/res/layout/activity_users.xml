@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+android:background="@drawable/background"
+    tools:context="com.greenmagics.voip.UsersActivity">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="@color/colorAccent"
+          android:layout_marginTop="@dimen/activity_vertical_margin"
+          android:padding="@dimen/activity_horizontal_margin"
+          android:text="@string/addcontact"
+          android:layout_weight=".33"
+          android:id="@+id/button2"
+          />
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="@color/colorAccent"
+          android:layout_marginTop="@dimen/activity_vertical_margin"
+          android:text="@string/Conference"
+          android:layout_marginLeft="5dp"
+          android:id="@+id/button3"
+          android:layout_weight=".33"
+          android:padding="@dimen/activity_horizontal_margin"
+          />
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="@color/colorAccent"
+          android:layout_marginTop="@dimen/activity_vertical_margin"
+          android:text="@string/GroupChat"
+          android:padding="@dimen/activity_horizontal_margin"
+          android:layout_marginLeft="5dp"
+          android:layout_weight=".33"
+          android:id="@+id/button4"
+          />
+
+
+  </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:text="Log Out"
+
+            android:id="@+id/buttonlogout"
+            />
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight=".5"
+            android:textSize="30dp"
+            android:textColor="@color/white"
+            android:id="@+id/textView3" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_weight=".5"
+            android:id="@+id/textView4" />
+
+
+    </LinearLayout>
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:id="@+id/listView"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true" />
+
+
+</LinearLayout>

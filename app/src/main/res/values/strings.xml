@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">"Voip "</string>
+    <string name="Register">"Register Account"</string>
+    <string name="SIP">"SIP Server :"</string>
+    <string name="XMPP">"XMPP Server :"</string>
+    <string name="XMPPuser">"XMPP Username :"</string>
+    <string name="XMPPpass">"XMPP Password :"</string>
+    <string name="SIPuser">"SIP Username :"</string>
+    <string name="SIPpass">"SIP Password :"</string>
+    <string name="registeraccountbut">"Register"</string>
+    <string name="addcontact">"Add Contact"</string>
+    <string name="Conference">"Conference"</string>
+    <string name="GroupChat">"Group Chat"</string>
+    <string name="Send">"Send"</string>
+    <string name="AddConference">"Add Conference"</string>
+    <string name="GroupChatCreate">"Add Group"</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
